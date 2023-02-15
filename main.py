@@ -19,7 +19,7 @@ for y in range(height):
             run_length = 0
         run_length += 1
         if color != run_color or run_length == width:
-            runs.append(f'{color} {run_length}')
+            runs.append(f'{run_color} {run_length}')
             run_color = color
             run_length = 0
     print(', '.join(runs))
