@@ -5,8 +5,6 @@ parser = ArgumentParser()
 parser.add_argument('image')
 args = parser.parse_args()
 
-print(args.image)
-
 image = Image.open(args.image)
 width, height = image.size
 for y in range(height):

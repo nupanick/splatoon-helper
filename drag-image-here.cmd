@@ -1,0 +1,1 @@
+py -m main %~1 > %~n1.txt
